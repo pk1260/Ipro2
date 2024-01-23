@@ -1,0 +1,26 @@
+Opdracht 1 – Linked List code onderzoeken
+Let op: In de filmpjes van week 4 worden een aantal programmeeropdrachten genoemd.
+In deze les ga je niet zelf volledig de gelinkte lijst uitprogrammeren.
+(Tenzij je daar zin in hebt natuurlijk!) In plaats daarvan vragen we je om zelf een implementatie van de gelinkte lijst erbij te pakken in een taal naar keuze.
+Probeer te begrijpen hoe deze code werkt.
+
+Voor Java code: https://dzone.com/articles/doubly-linked-list-in-java
+
+Voor Python code: https://dbader.org/blog/python-linked-list
+
+Wil je wat extra uitleg over de gelinkte lijst en hoe de code werkt?
+Onderstaand filmpje laat voorbeeldcode zien in Java. https://www.youtube.com/watch?v=njTh_OwMljA
+
+a) De gelinkte lijst bestaat uit Entry’s / Node’s en daaromheen zit nog een LinkedList klasse. Leg uit waarom je deze klasse nodig hebt. Wat kan er misgaan als je deze klasse niet hebt?
+
+b) Hoe voeg je een element toe aan het begin van een gelinkte lijst? (addFirst methode) Probeer deze code te begrijpen. Kun je het uitleggen in je eigen woorden?
+
+c) Hoe snel is dit in een enkel gelinkte lijst en in een dubbel gelinkte lijst? Als we naar snelheid vragen bedoelen we natuurlijk de Big O notatie
+
+d) Hoe voeg je een element toe aan het einde van een gelinkte lijst? (addLast methode)
+
+e) Hoe snel is dit in een enkel gelinkte lijst en in een dubbel gelinkte lijst?
+
+f) Hoe kun je het een-na-laatste element vinden in een enkel gelinkte lijst? Hoe snel is dit?
+
+g) Hoe kun je het een-na-laatste element vinden in een dubbel gelinkte lijst? Hoe snel is dit?

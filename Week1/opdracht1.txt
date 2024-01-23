@@ -1,0 +1,31 @@
+Opdracht 1 – Big O & zoeken
+    a) Leg in je eigen woorden uit wat “Big O” is.
+        De big O is de complexiteit van een algoritme. Dit is de tijd die het kost om een algoritme uit te voeren.
+
+    b) Leg stapsgewijs uit hoe lineair zoeken werkt.
+        Bij lineair zoeken gaan we staps gewijs door de array tot dat we het gezochte getal hebben gevonden.
+        Stel ik heb een array van het getal 1 tot en met 10. Ik wil weten of het getal 5 in de array zit.
+        Dan start je bij 1 en loop je door de array heen totdat je het getal 5 tegen komt. Als je het getal 5 tegen komt dan stop je met zoeken.
+
+    c) Wat is de tijdscomplexiteit van lineair zoeken in een lijst? Leg ook uit waarom.
+        De tijdscomplexiteit van lineair zoeken is O(n).
+
+    d) Leg in je eigen woorden uit hoe binair zoeken werkt.
+           Stel je heb een array van het getal 1 tot en met 6 en je zoekt naar 4.
+           Wat je doet bij een binairy search is dat je de array door 2e gaat splitens.
+           Hiervoor gebruik je de formule van de laagste index + de hoogste index / 2 en rond af naar bendeden.
+           Dus in dit geval is dat 0 + 5 / 2 = 2.5 afgerond naar beneden is dat 2.
+           als 2 kleiner is dan 4 dan ga je verder zoeken in de array van 3 tot en met 6.
+           deze stappen herhaal je totdat je het getal hebt gevonden.
+
+    e) Welke voorwaarde is er voor binair zoeken?
+        De array moet gesorteerd zijn. want als hij niet gesoorteed is dan kan je niet de array door 2 splitsen.
+
+    f) Wat is de tijdscomplexiteit van binair zoeken in een lijst? Leg ook uit waarom.
+        De tijd complexiteit van binair zoeken is O(log n).
+
+    g) Wat is sneller? Lineair zoeken of binair zoeken?
+        Binair zoeken is sneller dan lineair zoeken. omdat je steeds de array deelt door 2 en je dus steeds minder getallen hebt om te zoeken.
+
+    h) Welk zoek algoritme zou je zelf het liefste gebruiken en waarom?
+        Ik zou binair zoeken gebruiken omdat dit sneller is dan lineair zoeken.

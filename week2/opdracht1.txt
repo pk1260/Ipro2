@@ -1,0 +1,12 @@
+Opdracht 1 – Unit testen opzetten
+a) Zorg dat je kunt unit testen in jouw IDE.
+    Werk je met Python dan installeer je unittest en werk je met Java dan installeer je JUnit.
+    Veel IDE’s hebben overigens al een unit test framework standaard in zich.
+    Tip: Het kan handig zijn om in beide talen te zorgen dat je Unit testen werkend hebt.
+    Dan kun je later nog eens switchen tussen Java en Python.
+
+b) Pak de opdrachten erbij van vorige week (Opdracht 2 > Grootste waarde in een array & Opdracht 3 > problem solving). Schrijf voor elke deelopdracht daarvan minimaal drie unit tests. Zet de tests in een Test Case.
+
+c) Maak meerdere Test Cases en zet die dan weer in een Test Suite
+
+d) Experimenteer met de verschillende Assertions die het test framework biedt.

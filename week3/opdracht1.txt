@@ -1,0 +1,10 @@
+Opdracht 1 – Bubble sort
+a) Leg kort uit hoe bubble sort werkt
+
+b) Sorteer de volgende getallen met bubble sort: 8, 4, 6, 3, 1, 7, 2
+
+c) Geef minimaal 1 voordeel en 1 nadeel van dit algoritme.
+
+d) Wat is de worst-case complexiteit van bubble sort?
+
+e) Wat is de best-case complexiteit van bubble sort? Hoe ziet je rij met getallen er dan uit?

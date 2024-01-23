@@ -1,0 +1,29 @@
+Opdracht 2 – Linked List gebruiken & testen
+In deze opdracht ga je zelf de linked list gebruiken in je code.
+In Java kun je de LinkedList klasse gebruiken, die is built-in in Java.
+Je kunt ook de Java voorbeeldcode gebruiken.
+In Python zit geen ingebouwde gelinkte lijst, dus zul je de voorbeeldcode moeten gebruiken.
+
+a) Zorg dat je een LinkedList kunt aanmaken in Java / Python. Zet ook vast een testklasse op.
+
+b) Schrijf een stukje code zoekMidden() om het middelste element in een gelinkte lijst te vinden.
+    Return de waarde van de middelste Node.
+    Bedenk goed of je een extra methode toevoegt aan je linked list klasse of dat je de opdracht in een los bestand maakt.
+    Wat denk je zelf dat het handigste is? Werk de oplossing eerst uit in pseudocode, dan in code,
+    daarna test je je code met lijsten van verschillende lengtes. Unit testen heb je vorige week geleerd.
+
+c) Schrijf een stukje code verwijderMidden() waarin je de Node in het midden van de lijst verwijderd.
+    Het kan zijn dat er 2 nodes precies in het midden zitten, kies er dan één om te verwijderen.
+    Werk de oplossing eerst uit in pseudocode, dan in code, daarna test je je code met minimaal 3 verschillende unit tests.
+
+d) Stel, je hebt een gelinkte lijst waar ook dubbele waardes in kunnen zitten.
+    Schrijf een stukje code verwijderDubbelen() waarmee je alle dubbele waardes verwijdert uit je gelinkte lijst.
+    Werk de oplossing eerst uit in pseudocode, dan in code, daarna test je je code met minimaal 3 verschillende unit tests.
+
+e) Stel, je hebt een gelinkte lijst waar allerlei letters in zitten.
+    Alle letters aan elkaar vormen een woord. Schrijf een functie isPalindroom() om te checken of je gelinkte lijst een palindroom is.
+    Natuurlijk test je vervolgens ook je code!
+
+f) Schrijf een stukje code zoekXNaLaatste(int k) die je k-na-laatste element teruggeeft.
+    Bijvoorbeeld: zoekXNaLaatste(0) geeft het laatste element terug Bijvoorbeeld: zoekXNaLaatste(1) geeft het één na laatste element terug, etc.
+    Natuurlijk test je vervolgens ook je code!

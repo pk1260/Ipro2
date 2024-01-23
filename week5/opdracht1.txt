@@ -1,0 +1,18 @@
+Opdracht 1 – Stack
+a) Leg kort uit hoe een Stack werkt in je eigen woorden.
+    Bij een stack plaats je steeds een nieuwe waarde bovenop de vorige waarde van de array.
+b) Noem 3 situaties waarin je een Stack zou kunnen toepassen.
+    Bij een opstapelen van pannenkoeken, bij het probleem van hanoi en bij het opslaan van een geschiedenis van een browser.
+c) De functies van een Stack zijn genoemd in de weblectures. Beschrijf van elke functie in je eigen woorden wat deze doet.
+
+d) Leg uit wat FIFO en LIFO betekenen.
+    FIFO: first in first out. Dat betekent het eerste element wat je er in stopt moet er ook als eerste weer uit.
+    LIFO: last in first out. Dat betekent het laatste element wat je er in stopt moet er ook als eerste weer uit.
+e) Is een Stack een FIFO of LIFO-datastructuur? Leg uit waarom.
+    Een stack is een LIFO-datastructuur. Dit kan je goed zijn bij het voorbeeld van panenkoeken stapelen.
+    Elke keer las je een nieuwe pannenkoek op de stapel gooit moet je de laatste er weer als eerste afhalen om bij de volgende te komen.
+    Dit is dus een LIFO-datastructuur.
+
+f) Vorige week heb je met de code van een LinkedList gewerkt. Gebruik deze om een Stack te implementeren.
+    Let op: Bij elke Stack functie (push, pop, peek, size, isEmpty) roep je dus een methode van de onderliggende LinkedList aan.
+    Elke Stack functie heeft in principe dus maar één regel code.

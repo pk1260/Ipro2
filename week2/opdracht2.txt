@@ -1,0 +1,3 @@
+Opdracht 2 – Debuggen
+Laad een van je eigen programma’s in je IDE en probeer de functionaliteiten van de debugger uit. Gebruik hiervoor weer de programmeeropdrachten van vorige week.
+Je kunt als alternatief ook de code van een schoolproject erbij pakken, zoals de code van de challengeweeks van vorig jaar.

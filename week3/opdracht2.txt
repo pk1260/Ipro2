@@ -1,0 +1,6 @@
+Opdracht 2 – Recursie
+a) Beschrijf in je eigen woorden hoe recursie werkt.
+
+b) Welke eigenschappen heeft een recursieve functie?
+
+c) Wat gebeurt er (per eigenschap) als deze ontbreekt?

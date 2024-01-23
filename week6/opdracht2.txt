@@ -1,0 +1,13 @@
+Opdracht 2 – Toevoegen in een binaire zoekboom
+In deze opdracht ga je één voor één knopen toevoegen in een binaire zoekboom.
+Let op dat de boom gesorteerd blijft! Hier kun je voor zorgen door de getallen steeds op de juiste plek toe te voegen.
+
+a) Voeg de volgende getallen één voor één toe: 6, 2, 7, 1, 9, 8, 5
+
+b) Herhaal deze opdracht met letters: R, O, L, A, N, D
+
+c) Herhaal deze opdracht met getallen: 1, 2, 3, 4, 5, 6
+
+d) Hoe snel werkt zoeken in een binaire zoekboom in het worst-case geval? Gebruik de Big O notatie.
+
+e) Wat zou je doen als je een waarde voor de tweede keer toe moet voegen in een binaire zoekboom?

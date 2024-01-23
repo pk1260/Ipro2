@@ -1,0 +1,39 @@
+Opdracht 2 – Grootste waarde in een array
+Stel dat je een ongesorteerde array met getallen hebt, en je wilt weten wat het grootste getal is.
+    a) Geef de pseudocode om het grootste getal te vinden in een array.
+        grootse getal = array[0]
+
+        voor elk element in de array begin vanaf index 1:
+            als element > grootste getal:
+                grootste getal = element
+        retourn grootste getal
+
+    b) Geef nu de code
+        function grootsteGetal(array) {
+            let grootsteGetal = array[0];
+            for (let i = 1; i < array.length; i++) {
+                if (array[i] > grootsteGetal) {
+                    grootsteGetal = array[i];
+                }
+            }
+            return grootsteGetal;
+        }
+    c) Hoe snel is je code in Big O notatie?
+        De tijd complexiteit van dit algoritme is O(n).
+
+    d) Test je implementatie in de onderstaande situaties. (Verbeter je code als deze niet werkt!)
+        Zie opdracht2_week1.java.
+
+    1. Een lege array
+    2. Een array met 1 getal erin
+    3. Een array met 2 getallen erin
+    4. Een array met 10 getallen erin
+    5. Kun je zelf nog een nuttige test bedenken?
+        Ik had een nuttige test voordat ik hem had gefixed. als de waarde van de array leeg was dan gaf hij eerst een error.
+        Dit heb ik opgelost door if statements te gebruiken in mijn sortArray functie en in de psvm functie.
+
+        Door mijn array negatieve getallen te geneven en te kijken of hij het grootste getal terug geeft.
+        Door mijn array te vullen met alleen maar de zelfde getallen en te kijken of hij het grootste getal terug geeft.
+        Door mijn array te vullen met
+    e) Stel dat je reeks getallen gesorteerd is… Hoe kun je dan je algoritme sneller maken?
+        Als de array gesorteerd is dan kan je binair zoeken gebruiken. dit is sneller dan lineair zoeken.

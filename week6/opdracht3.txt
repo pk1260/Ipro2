@@ -1,0 +1,19 @@
+Opdracht 3 – Boom programmeren
+In deze opdracht ga je zelf een binaire zoek boom programmeren.
+
+a) Start met een “Node” klasse. Een Node heeft:
+    o Een element, van type Object
+    o Een linkerkind en een rechterkind (van type Node)
+
+    o Vervolgens voeg je ook een aantal methodes toe:
+
+b) Nu maak je de klasse BinarySearchTree. We maken dus een zoekboom.
+    o Voeg de methode add() toe. Hierin voeg je een element toe op de juist plek.
+        Dus: kleiner is links en groter is rechts toevoegen.
+    o Voeg de methode toString() toe.
+    o Wil je nog meer methodes toevoegen; wat denk je dat handig is?
+        Bijvoorbeeld een getRoot(), diepte() , hoogte() ?
+
+c) Test nu ook je binaire boom. Je kunt de voorbeelden uit vraag 2 gebruiken om je boom te testen.
+    Bedenk ook nog een aantal eigen voorbeelden om mee te testen
+    (Bijvoorbeeld een lege boom, 1 element, 2 dezelfde elementen, etc)

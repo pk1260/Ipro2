@@ -1,0 +1,14 @@
+Opdracht 3 – Hash Table
+a) Leg kort uit hoe een Hash Table werkt in je eigen woorden.
+    een hashtable werkt met een key en een value. de key is een unieke waarde die je gebruikt om de value op te zoeken.
+
+b) Noem 3 situaties waarin je een Hash Table zou kunnen toepassen.
+    Een telefoonboek,
+    Een woordenboek,
+    Een lijst met gebruikersnamen en wachtwoorden.
+
+c) Hoe ziet een entry in een Hash Table eruit?
+    de entry bestaat uit een key en een value.
+
+d) Voor een Hash Table is heel veel geheugen nodig. Waarom zou je deze datastructuur toch willen gebruiken?
+    Omdat het heel snel is om iets op te zoeken in een hash table.

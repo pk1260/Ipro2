@@ -1,0 +1,13 @@
+Opdracht 1 – Boom eigenschappen
+Deze vraag gaat over datastructuur Boom.
+Beantwoord per boom de onderstaande vragen.
+
+a) Wat voor soort boom is dit? Wees zo specifiek mogelijk!
+
+b) Welke knoop is de wortel?
+
+c) Hoeveel bladeren heeft deze boom?
+
+d) Wat is de diepte van deze boom?
+
+e) Wat is de hoogte van deze boom?

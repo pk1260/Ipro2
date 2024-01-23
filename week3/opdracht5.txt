@@ -1,0 +1,18 @@
+Opdracht 5 – Merge sort
+a) Sorteer de volgende getallen met merge sort: 6, 1, 4, 12, 10, 7, 9, 2
+
+b) Sorteer de volgende getallen met merge sort: 7, 2, 11, 6, 8, 1, 4
+
+c) Geef minimaal 1 voordeel & 1 nadeel van dit algoritme.
+
+d) Wat is de complexiteit van mergesort? Is dat beter of slechter dan van bubble sort?
+
+e) Welk van deze sorteeralgoritmes zou je zelf het liefste gebruiken en waarom?
+
+Op deze website vind de code van merge sort in zowel Python als Java: https://www.geeksforgeeks.org/merge-sort/
+
+f) Bekijk deze code, lees het goed door en leg in je eigen woorden uit hoe het werkt.
+
+g) Hoeveel instanties van de lijst met elementen zijn er?
+
+h) Waarom wordt er niet bij elke recursieve stap een nieuwe Array aangemaakt?

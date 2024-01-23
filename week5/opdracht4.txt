@@ -1,0 +1,26 @@
+Opdracht 4 – Testgevallen bedenken
+In deze opdracht ga je aan de slag met testgevallen bedenken.
+Stel je voor, je gaat een functie testen, welke test gevallen kun je dan bedenken?
+Geef elke testcast een naam en beschrijf hoe de gewenste input & output eruit zien.
+
+Voorbeeld: Test de functie zoekGrootsteWaarde met een lege lijst.
+    naam: test_zoekGrootsteWaarde_leeg()
+    input: lege lijst output: -1
+
+a) De push() functie van een Stack
+
+b) De pop() functie van een Stack
+
+c) De peek() functie van een Stack
+
+d) De add() functie van een Queue
+
+e) De addLast() functie van een LinkedList
+
+f) De removeFirst() functie van een linkedList
+
+g) Binair zoeken
+
+h) Sorteren met bubble sort
+
+i) Sorteren met merge sort

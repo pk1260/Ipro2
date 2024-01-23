@@ -1,0 +1,37 @@
+Opdracht 3 – Problem solving
+Geef de pseudocode & code om onderstaande problemen op te lossen. Bedenk minimaal 3 testgevallen per opdracht en test hiermee je code.
+Tip: als je vastloopt, of niet weet waar je moet beginnen, kun je de problem solving template erbij pakken.
+
+a) Gegeven een array met integers. Een bergtop is een getal dat groter is dan alle directe buren. Geef de code om het aantal bergtoppen in een array te tellen.
+    input: is de array met integers.
+    proces: loop door de array heen en vergelijk de getallen met de getallen ervoor en erna. kijk of de waarde groter is dan de waarde ervoor en de waarde erna.
+    output: het aantal bergtoppen in de array.
+
+    voor elke waarde in de array doe:
+        als de waarde groter is dan de waarde ervoor en de waarde erna dan:
+            tel 1 bij het aantal bergtoppen op.
+    print het aantal bergtoppen.
+
+
+b) Gegeven een array met integers. Een dal is een getal dat kleiner is dan alle directe buren. Geef de code om alle dalen in een array te printen.
+    input: is de array met integers.
+    proces: loop door de array heen en vergelijk de getallen met de getallen ervoor en erna. kijk of de waarde kleiner is dan de waarde ervoor en de waarde erna.
+    output: de dalen in de array.
+
+    voor elke waarde in de array doe:
+        als de waarde kleiner is dan de waarde ervoor en de waarde ernaas dan:
+            tel 1 bij het aantal dalen op.
+    print het aantal dalen.
+
+c) Gegeven een array met integers. Geef de code om alle getallen uit deze array te printen die dubbel voorkomen.
+    input: is de array met integers. Waarvan er meerdere getallen dubbel voorkomen.
+    proces: loop door de array heen en vergelijk de getallen met de getallen ervoor en erna. kijk of de waarde gelijk is aan de waarde ervoor en de waarde erna.
+    output: de getallen die dubbel voorkomen.
+
+    voor elke waarde in de array doe:
+        Hou ik de count bij. deze start op 1 omdat je altijd 1 dezelfde waarde heb.
+            Ik maak nog een Array genaamd J die de I array + 1 doet. als de J array kleiner is I array dan verhogen we de J array met 1
+            als de J array gelijk is aan de I array dan:
+                tel 1 bij de count op.
+            en als de counter hoger is dan 1 dan pringen we uit:
+                print de waarde van de I array die dubbel voorkomt.

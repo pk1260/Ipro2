@@ -1,0 +1,21 @@
+Opdracht 2 – Queue
+a) Leg kort uit hoe een Queue werkt in je eigen woorden.
+    Bij een queue worden elementen toegevoegd aan het einde van de lijst en verwijderd aan het begin van de lijst.
+
+b) Noem 3 situaties waarin je een Queue zou kunnen toepassen.
+    1. Een wachtrij bij een kassa
+    2. Een wachtrij bij een pretpark
+    3. Een wachtrij bij een attractie
+
+c) Leg uit wat het verschil is tussen een Stack en een Queue
+    Een queue is FIFO (First In First Out) en een stack is LIFO (Last In First Out)
+
+d) Hoe heet de add-functie van een Queue? Hoe snel is deze in Big O termen?
+    put() in python en add in java en deze is O(1)
+
+e) Hoe heet de remove-functie van een Queue? Hoe snel is deze in Big O termen?
+    pop in python en remove in java en deze is O(1)
+
+f) Vorige week heb je met de code van een LinkedList gewerkt. Gebruik deze om een Queue te implementeren.
+    Let op: Bij elke Queue functie roep je dus een methode van de onderliggende LinkedList aan.
+    Elke functie heeft in principe dus maar één regel code.

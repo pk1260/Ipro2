@@ -1,0 +1,29 @@
+Opdracht 4 – Palindroom
+Een palindroom is een woord wat van voor naar achter en van achter naar voren hetzelfde gelezen kan worden.
+Voorbeelden: Anna, Eve, Rotor, Negen, Raar, Meetsysteem en legovogel.
+Beschouw het eerste deel van een programma die dit voor een willekeurig woord bepaald.
+
+public class Palindroom {
+    public static void main (String [] args) {
+        String st = "parterretrap";
+        if (palindroom (st, 0, st.length() - 1)) {
+            System.out.println ("Palindroom!");
+        } else {
+            System.out.println ("Geen Palindroom");
+        }
+    }
+
+    private static boolean palindroom (String s, int begin, int eind) {
+        //….
+    }
+}
+
+a) Maak deze (recursieve) methode werkend.
+
+b) Hoe vaak wordt deze methode palindroom aangeroepen voor een woord met 4 letters?
+
+c) Hoe vaak wordt deze aangeroepen voor een woord met 5 letters?
+
+d) En voor een woord met n letters?
+
+e) Schrijf een aantal unit testen om je functie te testen. Denk goed na wat handige gevallen zijn om een test case over te maken.

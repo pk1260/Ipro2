@@ -1,0 +1,10 @@
+Opdracht 5 – Problem solving met Stack
+a) Stel dat je één array zou willen gebruiken om twee Stacks te implementeren.
+    Hoe zou je dat doen? Stel dat de twee Stacks niet precies even groot zijn, hoe moet je dan je oplossing aanpassen?
+    Geef je antwoord in pseudocode.
+    Als je wilt, kun je deze opdracht ook uitprogrammeren.
+
+b) Gegeven een Stack met minimaal 5 elementen.
+    Stel dat je alle elementen wilt omdraaien, zodat ze in omgekeerde volgorde in je Stack komen te staan.
+    Schrijf een functie draaiOm() en voeg deze toe aan je Stack.
+    Test je functie ook met minimaal 3 verschillende unit tests.
