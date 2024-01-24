@@ -1,5 +1,6 @@
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class linkedList {
     public static void main(String[] args) {
@@ -21,40 +22,69 @@ public class linkedList {
 
         LinkedList<String> list1 = new LinkedList<String>();
         LinkedList<String> list2 = new LinkedList<String>();
-        // Stack
-        /* als je een op een list .push gebruikt dan wordt het een stack
-         omdat als je push gebruikt wordt het laatste element toegevoegd
-            en als je pop gebruikt wordt het laatste element verwijderd
-         */
-        list1.push("a");
-        list1.push("b");
-        list1.push("c");
-        list1.push("d");
-        list1.push("f");
-        list1.pop();
 
-        //Queue
-        /* als je een list .offer gebruikt dan wordt het een Queue
-         omdat als je offer gebruikt wordt het eerste element toegevoegd
-            en als je poll gebruikt wordt het eerste element verwijderd
-         */
-        list2.offer("a");
-        list2.offer("b");
-        list2.offer("c");
-        list2.offer("d");
-        list2.offer("f");
-//        list2.poll();
-        list2.add(4, "e");
-        list2.remove("e");
+//        // Stack
+//        /* als je een op een list .push gebruikt dan wordt het een stack
+//         omdat als je push gebruikt wordt het laatste element toegevoegd
+//            en als je pop gebruikt wordt het laatste element verwijderd
+//         */
+//        list1.push("a");
+//        list1.push("b");
+//        list1.push("c");
+//        list1.push("d");
+//        list1.push("f");
+//        list1.pop();
+//
+//        //Queue
+//        /* als je een list .offer gebruikt dan wordt het een Queue
+//         omdat als je offer gebruikt wordt het eerste element toegevoegd
+//            en als je poll gebruikt wordt het eerste element verwijderd
+//         */
+//        list2.offer("a");
+//        list2.offer("b");
+//        list2.offer("c");
+//        list2.offer("d");
+//        list2.offer("f");
+////        list2.poll();
+//        list2.add(4, "e");
+//        list2.remove("e");
+//
+//
+//        while (list1.iterator().hasNext())
+//
+////        System.out.println(list1);
+//        System.out.println(list2.peekFirst());
+//        System.out.println(list2.peekLast());
+//        System.out.println(list2.indexOf("f"));
+//        System.out.println(list2);
 
 
-        while (list1.iterator().hasNext())
+        Stack<Integer> list3 = new Stack<Integer>();
+        list3.push(6);
+        list3.push(11);
+        list3.push(32);
+        list3.push(5);
+        list3.push(3);
 
-//        System.out.println(list1);
-        System.out.println(list2.peekFirst());
-        System.out.println(list2.peekLast());
-        System.out.println(list2.indexOf("f"));
-        System.out.println(list2);
+        int grootsteWaarde = zoekGrootsteWaarde(list3);
+        System.out.println(grootsteWaarde);
+    }
 
+    public static int zoekGrootsteWaarde(Stack<Integer> stack) {
+        int grootsteWaarde = stack.peek();
+
+        Stack<Integer> hulpStack = new Stack<Integer>();
+
+        while (!stack.isEmpty()) {
+            int huidgeWaarde = stack.pop();
+            grootsteWaarde = Math.max(grootsteWaarde, huidgeWaarde);
+            hulpStack.push(huidgeWaarde);
+        }
+
+        while (!hulpStack.isEmpty()) {
+            stack.push(hulpStack.pop());
+        }
+
+        return grootsteWaarde;
     }
 }
